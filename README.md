@@ -1,2 +1,2 @@
-# snmp-gateway
-A Java gateway for SNMP traps
+# snmp-trap-manager
+A Java SNMP trap manager
