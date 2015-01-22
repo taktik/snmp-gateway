@@ -5,3 +5,4 @@ gradlew
 gradlew.bat
 snmp-gateway.iml
 build
+snmp-trap-manager.iml
