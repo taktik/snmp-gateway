@@ -1,4 +1,4 @@
-package org.taktik.snmp.gateway.handler;
+package org.taktik.snmp.trapmanager.handler;
 
 import org.snmp4j.CommandResponderEvent;
 

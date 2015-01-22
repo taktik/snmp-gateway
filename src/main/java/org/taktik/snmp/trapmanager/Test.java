@@ -1,4 +1,4 @@
-package org.taktik.snmp.gateway;
+package org.taktik.snmp.trapmanager;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
@@ -21,6 +21,7 @@ import org.snmp4j.security.USM;
 import org.snmp4j.security.UsmUser;
 import org.snmp4j.smi.Address;
 import org.snmp4j.smi.GenericAddress;
+import org.snmp4j.smi.OID;
 import org.snmp4j.smi.OctetString;
 import org.snmp4j.smi.TcpAddress;
 import org.snmp4j.smi.UdpAddress;
@@ -85,9 +86,16 @@ public class Test implements CommandResponder {
 				new UsmUser(new OctetString("MD5DES"), null, null, null, null));
 		System.out.println("Listening... ");
 		snmp.listen();
+
+		OID thomson = new OID("1.3.6.1.4.1.38124");
+		OID anevia = new OID("1.3.6.1.4.1.20967");
 	}
 
 	public synchronized void processPdu(CommandResponderEvent event) {
+
+
+
+
 
 		System.out.println("Message Received:");
 

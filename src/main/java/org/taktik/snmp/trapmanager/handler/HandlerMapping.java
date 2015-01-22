@@ -1,4 +1,6 @@
-package org.taktik.snmp.gateway.handler;
+package org.taktik.snmp.trapmanager.handler;
+
+import org.taktik.snmp.trapmanager.selector.TrapSelector;
 
 public class HandlerMapping {
 	private Handler handler;

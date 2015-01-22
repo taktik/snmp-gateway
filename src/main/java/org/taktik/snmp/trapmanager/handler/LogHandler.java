@@ -1,4 +1,4 @@
-package org.taktik.snmp.gateway.handler;
+package org.taktik.snmp.trapmanager.handler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
